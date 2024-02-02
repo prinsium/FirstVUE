@@ -7,7 +7,7 @@
                 <!-- <img src="../assets/insplogo.svg" width="40px" alt="logo" /> -->
                 <div class="relative w-fit flex flex-col">
                     <div class="text-3xl font-medium text-slate-900">RODH</div>
-                    <div class="absolute w-full h-1.5 bg-[#ffffff] mt-4"></div>
+                    <div class="absolute w-full h-1.5 bg-[#ffffff] mt-3"></div>
                 </div>
 
         </div>
