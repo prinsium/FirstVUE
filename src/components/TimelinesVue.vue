@@ -3,7 +3,7 @@
         <h1 class="text-gray-200 text-lg font-normal text-center">things we do</h1>
         <h1 class="text-gray-100 text-2xl font-semibold text-center mb-10">Here are the things we love to do...</h1>
 
-        <div class="flex flex-col justify-center gap-4 md:gap-8 lg:gap-12 w-full lg:w-[1000px]">
+        <div class="flex flex-col justify-center gap-4 md:gap-8 lg:gap-12 w-full lg:w-[1000px] pl-1 pr-1.5">
             
             <div class="w-full mx-1 lg:mx-auto flex flex-row items-center justify-center border-4 rounded-3xl text-gray-100 hover:text-gray-800 hover:bg-white transition hover:duration-500 lg:rounded-full p-4 lg:p-12">
                 <div class="w-full flex flex-col items-start lg:flex-row lg:gap-4 lg:items-center">
