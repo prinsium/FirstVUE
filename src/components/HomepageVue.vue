@@ -4,7 +4,7 @@
             <span>&nbsp;a design</span>
             <span>agency with</span>
             <span class="w-screen">
-                <div className="overflow-hidden my-4">
+                <div className="hidden sm:block overflow-hidden my-4">
                     <div className="flex flex-row inline-block animate-marquee">
                     <!-- <div class="bg-gray-800 text-gray-100 pb-7 px-8 rounded-full flex justify-center items-center mr-3">experience</div>
                     <div class="bg-gray-800 text-gray-100 pb-7 px-8 rounded-full flex justify-center items-center mr-3">experience</div>
@@ -15,6 +15,24 @@
                             :key="index"
                             class="bg-gray-900 text-gray-100 pb-7 px-8 rounded-full flex justify-center items-center mr-3"
                         >
+                            experience
+                        </div>
+                </div>
+                </div>
+
+                <div className="sm:hidden overflow-hidden my-4">
+                    <div className="flex flex-row inline-block animate-marquee">
+                    <!-- <div class="bg-gray-800 text-gray-100 pb-7 px-8 rounded-full flex justify-center items-center mr-3">experience</div>
+                    <div class="bg-gray-800 text-gray-100 pb-7 px-8 rounded-full flex justify-center items-center mr-3">experience</div>
+                    <div class="bg-gray-800 text-gray-100 pb-7 px-8 rounded-full flex justify-center items-center mr-3">experience</div>
+                    <div class="bg-gray-800 text-gray-100 pb-7 px-8 rounded-full flex justify-center items-center mr-3">experience</div> -->
+                    <div class="bg-gray-900 text-gray-100 pb-7 px-8 rounded-full flex justify-center items-center mr-3">
+                            experience
+                        </div>
+                        <div class="bg-gray-900 text-gray-100 pb-7 px-8 rounded-full flex justify-center items-center mr-3">
+                            experience
+                        </div>
+                        <div class="bg-gray-900 text-gray-100 pb-7 px-8 rounded-full flex justify-center items-center mr-3">
                             experience
                         </div>
                 </div>
