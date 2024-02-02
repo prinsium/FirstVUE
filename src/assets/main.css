@@ -3,34 +3,14 @@
 @tailwind utilities;
 
 body{
-    background-color: rgb(235, 254, 255);
+background-color: rgb(255, 255, 255);
 }
 
-h1 {
-    font-family: "Clashgrotesk variable", sans-serif;;
-}
+body {
+font-family: "Universal Sans", sans-serif; }
 
-.custom-scrollbar {
-    /* Set overflow to auto to enable scrollbar */
-    overflow: auto;
-  
-    /* Set a fixed height or width for the container */
-    /* height: 300px; */
-    /* width: 300px; */
-  
-    /* Define scrollbar styles */
-    scrollbar-width: thin;
-    scrollbar-color: #bd0e0e #bd0e0e; /* Scrollbar track and thumb colors */
-  }
-  
-  /* Define scrollbar track styles */
-  .custom-scrollbar::-webkit-scrollbar-track {
-    background-color: #edf2f7; /* Color of the scrollbar track */
-  }
-  
-  /* Define scrollbar thumb styles */
-  .custom-scrollbar::-webkit-scrollbar-thumb {
-    background-color: #bd0e0e; /* Color of the scrollbar thumb */
-    border-radius: 6px; /* Border radius of the thumb */
-  }
+/* width */
+::-webkit-scrollbar {
+width: 0px;
+}
   

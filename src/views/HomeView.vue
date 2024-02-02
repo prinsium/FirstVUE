@@ -1,9 +1,17 @@
 <script setup>
-import Homepage from '@/components/Homepage.vue';
-import Navbar from '@/components/Navbar.vue'
+import FooterVue from '@/components/FooterVue.vue';
+import HomepageVue from '@/components/HomepageVue.vue';
+import NavbarVue from '@/components/NavbarVue.vue';
+import ServicesVue from '@/components/ServicesVue.vue';
+import TimelinesVue from '@/components/TimelinesVue.vue';
+
+
 </script>
 
 <template>
-  <Navbar />
-  <Homepage />
+  <NavbarVue />
+  <HomepageVue />
+  <TimelinesVue />
+  <ServicesVue />
+  <FooterVue />
 </template>

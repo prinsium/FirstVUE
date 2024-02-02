@@ -4,6 +4,24 @@ export default {
   purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      screens: {
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1440px',
+        '3xl': '1756px',
+        '4xl': '2160px',
+      },
+      fontSize: {
+        '7xl': '5rem',
+        '8xl': '6rem',
+        '9xl': '7rem',
+        '10xl': '8.5rem',
+        '11xl': '10rem',
+        '12xl': '12rem',
+        '13xl': '18rem',
+      },
       animation: {
         marquee: "marquee 25s linear infinite",
       },
